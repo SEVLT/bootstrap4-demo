@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+        />
+        <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <title>Bootstrap 4 Demo</title>
+        <style>
+            /* 设置图片区域样式 */
+            .imgArea {
+                height: 200px;
+                background: #aaa;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- mb-0：外边距底部为 0 -->
+        <div class="jumbotron text-center mb-0">
+            <h1>Bootstrap 4 Demo</h1>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">导航</a>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">导航1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">导航2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">导航3</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 窄页面时导航按钮 -->
+            <button
+                type="button"
+                class="navbar-toggler"
+                data-toggle="collapse"
+                data-target="#collapsibleNavbar"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <!-- 页面主体 -->
+        <div class="container" style="margin-top: 30px;">
+            <!-- 页面 4 / 8 分，横向排列 -->
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>关于我</h2>
+                    <h5>照片</h5>
+                    <div class="imgArea">图像</div>
+                    <p>文本</p>
+                    <h4>小标题</h4>
+                    <p>文本</p>
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">激活导航</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">默认导航</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">默认导航</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">禁用导航</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-8">
+                    <h2>标题</h2>
+                    <h5>副标题</h5>
+                    <div class="imgArea">图像</div>
+                    <p>文本</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ratione sequi
+                        culpa quisquam provident, cupiditate maiores repellat illum voluptatibus
+                        magnam?
+                    </p>
+                    <h2>标题</h2>
+                    <h5>副标题</h5>
+                    <div class="imgArea">图像</div>
+                    <p>文本</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ratione sequi
+                        culpa quisquam provident, cupiditate maiores repellat illum voluptatibus
+                        magnam?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- mb-0：外边距底部为 0 -->
+        <div class="jumbotron text-center mb-0">
+            <h5>Bottom</h5>
+        </div>
+    </body>
+</html>
